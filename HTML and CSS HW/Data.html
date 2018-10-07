@@ -1,0 +1,2843 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>🌐 Latitude</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+  .panel-default > .panel-heading-custom {
+    background: cornflowerblue; 
+    color: #fff; 
+    font-size: large;
+    }
+    th {
+        text-align: center;
+    }
+    </style>
+</head>
+
+
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#">🌐 Latitude</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                    <li><a href="\Temperature_page_final">vs Max Temperature</a></li>
+                    <li><a href="\Humidity_page_final">vs Humidity</a></li>
+                    <li><a href="\Windspeed_page_final">vs Wind Speed</a></li>
+                    <li><a href="\Cloudiness_page_final">vs Cloudiness</a></li>
+            </ul>
+            </li>
+            <li><a href="\index">Main</a></li> 
+            <li><a href="\Comparison">Comparison</a></li>
+
+     </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+
+<body>
+<div class="panel panel-default" style=text-align:center>
+        <div class="panel-heading panel-heading-custom">Cities in Dataset with Latitude</div>
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1" align="center">Latitude Below Equator</th>
+<th align="center">Northern City</th>
+<th title="Field #3" align="center"></th>
+<th title="Field #4" align="center">Latitude Above Equator</th>
+<th title="Field #5" align="center">Southern City</th>
+</tr></thead>
+<tbody><tr>
+<td align="center">-0.23</td>
+<td> Payakumbuh</td>
+<td> </td>
+<td align="center">0.07</td>
+<td> Pedernales</td>
+</tr>
+<tr>
+<td align="center">-0.28</td>
+<td> Boende</td>
+<td> </td>
+<td align="center">0.08</td>
+<td> Nueva Loja</td>
+</tr>
+<tr>
+<td align="center">-0.39</td>
+<td> San Cristobal</td>
+<td> </td>
+<td align="center">0.57</td>
+<td> Lamu</td>
+</tr>
+<tr>
+<td align="center">-0.49</td>
+<td> Owando</td>
+<td> </td>
+<td align="center">1.24</td>
+<td> Sri Aman</td>
+</tr>
+<tr>
+<td align="center">-0.6</td>
+<td> Hithadhoo</td>
+<td> </td>
+<td align="center">1.61</td>
+<td> Ouesso</td>
+</tr>
+<tr>
+<td align="center">-0.72</td>
+<td> Port-Gentil</td>
+<td> </td>
+<td align="center">2.04</td>
+<td> Mogadishu</td>
+</tr>
+<tr>
+<td align="center">-0.74</td>
+<td> Puerto Ayora</td>
+<td> </td>
+<td align="center">2.14</td>
+<td> Wamba</td>
+</tr>
+<tr>
+<td align="center">-0.86</td>
+<td> Sorong</td>
+<td> </td>
+<td align="center">2.82</td>
+<td> Boa Vista</td>
+</tr>
+<tr>
+<td align="center">-0.9</td>
+<td> Puerto Baquerizo Moreno</td>
+<td> </td>
+<td align="center">3.07</td>
+<td> Butaritari</td>
+</tr>
+<tr>
+<td align="center">-0.91</td>
+<td> Biak</td>
+<td> </td>
+<td align="center">3.52</td>
+<td> Moyale</td>
+</tr>
+<tr>
+<td align="center">-0.92</td>
+<td> Padang</td>
+<td> </td>
+<td align="center">3.78</td>
+<td> Mahibadhoo</td>
+</tr>
+<tr>
+<td align="center">-1.4</td>
+<td> Poso</td>
+<td> </td>
+<td align="center">4.87</td>
+<td> Axim</td>
+</tr>
+<tr>
+<td align="center">-1.93</td>
+<td> Inongo</td>
+<td> </td>
+<td align="center">4.94</td>
+<td> Cayenne</td>
+</tr>
+<tr>
+<td align="center">-2.02</td>
+<td> Lorengau</td>
+<td> </td>
+<td align="center">5.28</td>
+<td> Victoria</td>
+</tr>
+<tr>
+<td align="center">-2.03</td>
+<td> Olinda</td>
+<td> </td>
+<td align="center">5.35</td>
+<td> Hobyo</td>
+</tr>
+<tr>
+<td align="center">-2.57</td>
+<td> Kavieng</td>
+<td> </td>
+<td align="center">5.42</td>
+<td> George Town</td>
+</tr>
+<tr>
+<td align="center">-2.8</td>
+<td> Bariadi</td>
+<td> </td>
+<td align="center">5.43</td>
+<td> Naze</td>
+</tr>
+<tr>
+<td align="center">-2.92</td>
+<td> Itarema</td>
+<td> </td>
+<td align="center">5.67</td>
+<td> Ugoofaaru</td>
+</tr>
+<tr>
+<td align="center">-3.71</td>
+<td> Vila Velha</td>
+<td> </td>
+<td align="center">5.69</td>
+<td> Baoro</td>
+</tr>
+<tr>
+<td align="center">-4.7</td>
+<td> Santo Antonio</td>
+<td> </td>
+<td align="center">5.79</td>
+<td> Jinka</td>
+</tr>
+<tr>
+<td align="center">-4.94</td>
+<td> Katobu</td>
+<td> </td>
+<td align="center">5.84</td>
+<td> Sandakan</td>
+</tr>
+<tr>
+<td align="center">-5.2</td>
+<td> Touros</td>
+<td> </td>
+<td align="center">5.98</td>
+<td> Kota Kinabalu</td>
+</tr>
+<tr>
+<td align="center">-5.56</td>
+<td> Sechura</td>
+<td> </td>
+<td align="center">6.07</td>
+<td> Zwedru</td>
+</tr>
+<tr>
+<td align="center">-5.81</td>
+<td> Natal</td>
+<td> </td>
+<td align="center">6.08</td>
+<td> Taganak</td>
+</tr>
+<tr>
+<td align="center">-6.32</td>
+<td> Panguna</td>
+<td> </td>
+<td align="center">6.12</td>
+<td> Hambantota</td>
+</tr>
+<tr>
+<td align="center">-6.64</td>
+<td> Chongoyape</td>
+<td> </td>
+<td align="center">6.21</td>
+<td> Awka</td>
+</tr>
+<tr>
+<td align="center">-6.97</td>
+<td> Cabedelo</td>
+<td> </td>
+<td align="center">6.33</td>
+<td> Monrovia</td>
+</tr>
+<tr>
+<td align="center">-7.35</td>
+<td> Singaparna</td>
+<td> </td>
+<td align="center">6.62</td>
+<td> Kulhudhuffushi</td>
+</tr>
+<tr>
+<td align="center">-7.38</td>
+<td> Kawalu</td>
+<td> </td>
+<td align="center">6.63</td>
+<td> Effium</td>
+</tr>
+<tr>
+<td align="center">-8.65</td>
+<td> Denpasar</td>
+<td> </td>
+<td align="center">6.8</td>
+<td> Georgetown</td>
+</tr>
+<tr>
+<td align="center">-8.9</td>
+<td> Sao Jose Da Coroa Grande</td>
+<td> </td>
+<td align="center">7.04</td>
+<td> Kloulklubed</td>
+</tr>
+<tr>
+<td align="center">-8.93</td>
+<td> Airai</td>
+<td> </td>
+<td align="center">7.05</td>
+<td> Arawa</td>
+</tr>
+<tr>
+<td align="center">-9.01</td>
+<td> Maragogi</td>
+<td> </td>
+<td align="center">7.3</td>
+<td> Shar</td>
+</tr>
+<tr>
+<td align="center">-9.08</td>
+<td> Chimbote</td>
+<td> </td>
+<td align="center">7.71</td>
+<td> Batticaloa</td>
+</tr>
+<tr>
+<td align="center">-9.11</td>
+<td> Atambua</td>
+<td> </td>
+<td align="center">7.98</td>
+<td> Eyl</td>
+</tr>
+<tr>
+<td align="center">-9.43</td>
+<td> Honiara</td>
+<td> </td>
+<td align="center">7.99</td>
+<td> Balabac</td>
+</tr>
+<tr>
+<td align="center">-9.65</td>
+<td> Waingapu</td>
+<td> </td>
+<td align="center">8</td>
+<td> Marawi</td>
+</tr>
+<tr>
+<td align="center">-9.67</td>
+<td> Maceio</td>
+<td> </td>
+<td align="center">8.2</td>
+<td> Mabaruma</td>
+</tr>
+<tr>
+<td align="center">-9.8</td>
+<td> Atuona</td>
+<td> </td>
+<td align="center">8.96</td>
+<td> Lebu</td>
+</tr>
+<tr>
+<td align="center">-9.87</td>
+<td> Alta Floresta</td>
+<td> </td>
+<td align="center">9</td>
+<td> San Carlos Del Zulia</td>
+</tr>
+<tr>
+<td align="center">-10.07</td>
+<td> Huarmey</td>
+<td> </td>
+<td align="center">9.49</td>
+<td> Bandarbeyla</td>
+</tr>
+<tr>
+<td align="center">-10.37</td>
+<td> Nachingwea</td>
+<td> </td>
+<td align="center">9.52</td>
+<td> Conakry</td>
+</tr>
+<tr>
+<td align="center">-10.57</td>
+<td> Lukuledi</td>
+<td> </td>
+<td align="center">9.52</td>
+<td> Tubuala</td>
+</tr>
+<tr>
+<td align="center">-10.65</td>
+<td> Xapuri</td>
+<td> </td>
+<td align="center">9.67</td>
+<td> Matagami</td>
+</tr>
+<tr>
+<td align="center">-11.1</td>
+<td> Hualmay</td>
+<td> </td>
+<td align="center">10.24</td>
+<td> Esperance</td>
+</tr>
+<tr>
+<td align="center">-11.68</td>
+<td> Pimenta Bueno</td>
+<td> </td>
+<td align="center">10.31</td>
+<td> Miri</td>
+</tr>
+<tr>
+<td align="center">-12.06</td>
+<td> Lima</td>
+<td> </td>
+<td align="center">11</td>
+<td> Dingle</td>
+</tr>
+<tr>
+<td align="center">-12.18</td>
+<td> Nhulunbuy</td>
+<td> </td>
+<td align="center">11.28</td>
+<td> Bubaque</td>
+</tr>
+<tr>
+<td align="center">-12.58</td>
+<td> Benguela</td>
+<td> </td>
+<td align="center">11.67</td>
+<td> Port Blair</td>
+</tr>
+<tr>
+<td align="center">-12.9</td>
+<td> Boueni</td>
+<td> </td>
+<td align="center">11.93</td>
+<td> Granada</td>
+</tr>
+<tr>
+<td align="center">-13.19</td>
+<td> Ambilobe</td>
+<td> </td>
+<td align="center">12.15</td>
+<td> Managua</td>
+</tr>
+<tr>
+<td align="center">-13.71</td>
+<td> Pisco</td>
+<td> </td>
+<td align="center">12.16</td>
+<td> Gouyave</td>
+</tr>
+<tr>
+<td align="center">-14.27</td>
+<td> Sambava</td>
+<td> </td>
+<td align="center">12.35</td>
+<td> Abu Zabad</td>
+</tr>
+<tr>
+<td align="center">-14.66</td>
+<td> Andapa</td>
+<td> </td>
+<td align="center">13.08</td>
+<td> Tuy Hoa</td>
+</tr>
+<tr>
+<td align="center">-15.31</td>
+<td> Sao Joao Do Paraiso</td>
+<td> </td>
+<td align="center">13.18</td>
+<td> Gunjur</td>
+</tr>
+<tr>
+<td align="center">-15.62</td>
+<td> Luangwa</td>
+<td> </td>
+<td align="center">13.22</td>
+<td> Bathsheba</td>
+</tr>
+<tr>
+<td align="center">-15.62</td>
+<td> Rio Pardo De Minas</td>
+<td> </td>
+<td align="center">13.47</td>
+<td> Adre</td>
+</tr>
+<tr>
+<td align="center">-16.16</td>
+<td> Tete</td>
+<td> </td>
+<td align="center">13.72</td>
+<td> Sabang</td>
+</tr>
+<tr>
+<td align="center">-16.38</td>
+<td> La Libertad</td>
+<td> </td>
+<td align="center">14.07</td>
+<td> Dawei</td>
+</tr>
+<tr>
+<td align="center">-16.48</td>
+<td> Faanui</td>
+<td> </td>
+<td align="center">14.2</td>
+<td> Kutum</td>
+</tr>
+<tr>
+<td align="center">-16.84</td>
+<td> Mocuba</td>
+<td> </td>
+<td align="center">14.4</td>
+<td> Marzuq</td>
+</tr>
+<tr>
+<td align="center">-16.92</td>
+<td> Cairns</td>
+<td> </td>
+<td align="center">14.69</td>
+<td> Gat</td>
+</tr>
+<tr>
+<td align="center">-17.07</td>
+<td> Ondjiva</td>
+<td> </td>
+<td align="center">14.9</td>
+<td> Sao Filipe</td>
+</tr>
+<tr>
+<td align="center">-17.32</td>
+<td> Alto Araguaia</td>
+<td> </td>
+<td align="center">14.97</td>
+<td> Tanout</td>
+</tr>
+<tr>
+<td align="center">-17.88</td>
+<td> Quelimane</td>
+<td> </td>
+<td align="center">14.97</td>
+<td> La Union</td>
+</tr>
+<tr>
+<td align="center">-19.11</td>
+<td> Chimoio</td>
+<td> </td>
+<td align="center">15.34</td>
+<td> Vaini</td>
+</tr>
+<tr>
+<td align="center">-19.62</td>
+<td> Dondo</td>
+<td> </td>
+<td align="center">15.86</td>
+<td> Amnat Charoen</td>
+</tr>
+<tr>
+<td align="center">-19.9</td>
+<td> Mahanoro</td>
+<td> </td>
+<td align="center">16.18</td>
+<td> Sal Rei</td>
+</tr>
+<tr>
+<td align="center">-20.01</td>
+<td> Grand Gaube</td>
+<td> </td>
+<td align="center">16.38</td>
+<td> Champerico</td>
+</tr>
+<tr>
+<td align="center">-20.21</td>
+<td> Quatre Cocos</td>
+<td> </td>
+<td align="center">16.86</td>
+<td> Acapulco</td>
+</tr>
+<tr>
+<td align="center">-20.34</td>
+<td> Bambous Virieux</td>
+<td> </td>
+<td align="center">16.99</td>
+<td> Tecoanapa</td>
+</tr>
+<tr>
+<td align="center">-20.4</td>
+<td> Pouebo</td>
+<td> </td>
+<td align="center">17.01</td>
+<td> Salalah</td>
+</tr>
+<tr>
+<td align="center">-20.41</td>
+<td> Mahebourg</td>
+<td> </td>
+<td align="center">17.04</td>
+<td> Ban Tak</td>
+</tr>
+<tr>
+<td align="center">-20.47</td>
+<td> Sehithwa</td>
+<td> </td>
+<td align="center">17.1</td>
+<td> Nakhon Thai</td>
+</tr>
+<tr>
+<td align="center">-20.59</td>
+<td> Kalakamati</td>
+<td> </td>
+<td align="center">17.31</td>
+<td> Tecolutla</td>
+</tr>
+<tr>
+<td align="center">-20.63</td>
+<td> Ponta Do Sol</td>
+<td> </td>
+<td align="center">17.52</td>
+<td> Petatlan</td>
+</tr>
+<tr>
+<td align="center">-20.73</td>
+<td> Mount Isa</td>
+<td> </td>
+<td align="center">17.65</td>
+<td> Yarada</td>
+</tr>
+<tr>
+<td align="center">-20.74</td>
+<td> Karratha</td>
+<td> </td>
+<td align="center">18.03</td>
+<td> Black River</td>
+</tr>
+<tr>
+<td align="center">-20.95</td>
+<td> Voh</td>
+<td> </td>
+<td align="center">18.22</td>
+<td> The Valley</td>
+</tr>
+<tr>
+<td align="center">-21.21</td>
+<td> Avarua</td>
+<td> </td>
+<td align="center">18.39</td>
+<td> Faya</td>
+</tr>
+<tr>
+<td align="center">-21.64</td>
+<td> Sao Joao Da Barra</td>
+<td> </td>
+<td align="center">18.42</td>
+<td> Road Town</td>
+</tr>
+<tr>
+<td align="center">-22.12</td>
+<td> Henties Bay</td>
+<td> </td>
+<td align="center">18.46</td>
+<td> Discovery Bay</td>
+</tr>
+<tr>
+<td align="center">-22.35</td>
+<td> Otjimbingwe</td>
+<td> </td>
+<td align="center">18.53</td>
+<td> Pa Sang</td>
+</tr>
+<tr>
+<td align="center">-22.97</td>
+<td> Arraial Do Cabo</td>
+<td> </td>
+<td align="center">18.69</td>
+<td> Bilma</td>
+</tr>
+<tr>
+<td align="center">-23.12</td>
+<td> Rikitea</td>
+<td> </td>
+<td align="center">19.65</td>
+<td> Seybaplaya</td>
+</tr>
+<tr>
+<td align="center">-23.13</td>
+<td> Yeppoon</td>
+<td> </td>
+<td align="center">19.71</td>
+<td> Hilo</td>
+</tr>
+<tr>
+<td align="center">-23.49</td>
+<td> Pozo Colorado</td>
+<td> </td>
+<td align="center">19.9</td>
+<td> Chiang Rai</td>
+</tr>
+<tr>
+<td align="center">-23.58</td>
+<td> Bluff</td>
+<td> </td>
+<td align="center">19.91</td>
+<td> Jawhar</td>
+</tr>
+<tr>
+<td align="center">-23.6</td>
+<td> Jandaia Do Sul</td>
+<td> </td>
+<td align="center">20.2</td>
+<td> Tessalit</td>
+</tr>
+<tr>
+<td align="center">-23.7</td>
+<td> Alice Springs</td>
+<td> </td>
+<td align="center">20.78</td>
+<td> Taunggyi</td>
+</tr>
+<tr>
+<td align="center">-23.87</td>
+<td> Inhambane</td>
+<td> </td>
+<td align="center">20.87</td>
+<td> Celestun</td>
+</tr>
+<tr>
+<td align="center">-24.69</td>
+<td> Ampanihy</td>
+<td> </td>
+<td align="center">20.88</td>
+<td> Meiktila</td>
+</tr>
+<tr>
+<td align="center">-24.79</td>
+<td> Salta</td>
+<td> </td>
+<td align="center">21.05</td>
+<td> Teya</td>
+</tr>
+<tr>
+<td align="center">-24.93</td>
+<td> Humaita</td>
+<td> </td>
+<td align="center">21.32</td>
+<td> Ewa Beach</td>
+</tr>
+<tr>
+<td align="center">-25.3</td>
+<td> Hervey Bay</td>
+<td> </td>
+<td align="center">21.43</td>
+<td> Mecca</td>
+</tr>
+<tr>
+<td align="center">-25.41</td>
+<td> Taltal</td>
+<td> </td>
+<td align="center">21.46</td>
+<td> Cockburn Town</td>
+</tr>
+<tr>
+<td align="center">-25.67</td>
+<td> Pontal Do Parana</td>
+<td> </td>
+<td align="center">21.96</td>
+<td> Qinzhou</td>
+</tr>
+<tr>
+<td align="center">-26.54</td>
+<td> Kingaroy</td>
+<td> </td>
+<td align="center">22.08</td>
+<td> Kapaa</td>
+</tr>
+<tr>
+<td align="center">-26.65</td>
+<td> Luderitz</td>
+<td> </td>
+<td align="center">22.63</td>
+<td> Mata</td>
+</tr>
+<tr>
+<td align="center">-26.77</td>
+<td> Hunterville</td>
+<td> </td>
+<td align="center">22.68</td>
+<td> Taoudenni</td>
+</tr>
+<tr>
+<td align="center">-26.98</td>
+<td> San Patricio</td>
+<td> </td>
+<td align="center">22.69</td>
+<td> Ibra</td>
+</tr>
+<tr>
+<td align="center">-27.37</td>
+<td> Copiapo</td>
+<td> </td>
+<td align="center">22.89</td>
+<td> Cabo San Lucas</td>
+</tr>
+<tr>
+<td align="center">-28.55</td>
+<td> Oranjemund</td>
+<td> </td>
+<td align="center">22.9</td>
+<td> Bahia Honda</td>
+</tr>
+<tr>
+<td align="center">-28.65</td>
+<td> Byron Bay</td>
+<td> </td>
+<td align="center">22.93</td>
+<td> Lashio</td>
+</tr>
+<tr>
+<td align="center">-28.77</td>
+<td> Richards Bay</td>
+<td> </td>
+<td align="center">22.93</td>
+<td> Nizwa</td>
+</tr>
+<tr>
+<td align="center">-28.95</td>
+<td> Codrington</td>
+<td> </td>
+<td align="center">23.07</td>
+<td> Udaipura</td>
+</tr>
+<tr>
+<td align="center">-29.46</td>
+<td> Moree</td>
+<td> </td>
+<td align="center">23.99</td>
+<td> Constitucion</td>
+</tr>
+<tr>
+<td align="center">-29.95</td>
+<td> Coquimbo</td>
+<td> </td>
+<td align="center">24.09</td>
+<td> Aswan</td>
+</tr>
+<tr>
+<td align="center">-30.17</td>
+<td> Cidreira</td>
+<td> </td>
+<td align="center">24.14</td>
+<td> Keti Bandar</td>
+</tr>
+<tr>
+<td align="center">-30.97</td>
+<td> Carnarvon</td>
+<td> </td>
+<td align="center">24.8</td>
+<td> Hirara</td>
+</tr>
+<tr>
+<td align="center">-31.62</td>
+<td> Santa Fe</td>
+<td> </td>
+<td align="center">25.21</td>
+<td> Ormara</td>
+</tr>
+<tr>
+<td align="center">-31.97</td>
+<td> Broken Hill</td>
+<td> </td>
+<td align="center">25.29</td>
+<td> Chabahar</td>
+</tr>
+<tr>
+<td align="center">-32.03</td>
+<td> Rio Grande</td>
+<td> </td>
+<td align="center">25.52</td>
+<td> Tura</td>
+</tr>
+<tr>
+<td align="center">-32.49</td>
+<td> Port Augusta</td>
+<td> </td>
+<td align="center">25.6</td>
+<td> Dali</td>
+</tr>
+<tr>
+<td align="center">-32.72</td>
+<td> Nelson Bay</td>
+<td> </td>
+<td align="center">26.12</td>
+<td> Itoman</td>
+</tr>
+<tr>
+<td align="center">-32.81</td>
+<td> Paso De Los Toros</td>
+<td> </td>
+<td align="center">26.33</td>
+<td> Buraydah</td>
+</tr>
+<tr>
+<td align="center">-33.02</td>
+<td> East London</td>
+<td> </td>
+<td align="center">27.52</td>
+<td> Laguna</td>
+</tr>
+<tr>
+<td align="center">-33.21</td>
+<td> Jamestown</td>
+<td> </td>
+<td align="center">27.86</td>
+<td> Pano Aqil</td>
+</tr>
+<tr>
+<td align="center">-33.25</td>
+<td> Mercedes</td>
+<td> </td>
+<td align="center">27.97</td>
+<td> Guerrero Negro</td>
+</tr>
+<tr>
+<td align="center">-33.59</td>
+<td> Port Alfred</td>
+<td> </td>
+<td align="center">28.06</td>
+<td> Pasighat</td>
+</tr>
+<tr>
+<td align="center">-33.64</td>
+<td> Busselton</td>
+<td> </td>
+<td align="center">28.27</td>
+<td> Mirabad</td>
+</tr>
+<tr>
+<td align="center">-33.69</td>
+<td> Chuy</td>
+<td> </td>
+<td align="center">28.28</td>
+<td> Gamba</td>
+</tr>
+<tr>
+<td align="center">-33.93</td>
+<td> Cape Town</td>
+<td> </td>
+<td align="center">28.39</td>
+<td> Lazaro Cardenas</td>
+</tr>
+<tr>
+<td align="center">-34</td>
+<td> Kruisfontein</td>
+<td> </td>
+<td align="center">28.66</td>
+<td> Los Llanos De Aridane</td>
+</tr>
+<tr>
+<td align="center">-34.42</td>
+<td> Hermanus</td>
+<td> </td>
+<td align="center">28.94</td>
+<td> Fasa</td>
+</tr>
+<tr>
+<td align="center">-34.48</td>
+<td> Rocha</td>
+<td> </td>
+<td align="center">29.11</td>
+<td> Bam</td>
+</tr>
+<tr>
+<td align="center">-34.53</td>
+<td> Bredasdorp</td>
+<td> </td>
+<td align="center">29.16</td>
+<td> Waddan</td>
+</tr>
+<tr>
+<td align="center">-34.72</td>
+<td> Port Lincoln</td>
+<td> </td>
+<td align="center">29.28</td>
+<td> Jumla</td>
+</tr>
+<tr>
+<td align="center">-34.91</td>
+<td> Maldonado</td>
+<td> </td>
+<td align="center">29.56</td>
+<td> Ojinaga</td>
+</tr>
+<tr>
+<td align="center">-35.1</td>
+<td> Kaeo</td>
+<td> </td>
+<td align="center">31.42</td>
+<td> Pecos</td>
+</tr>
+<tr>
+<td align="center">-35.17</td>
+<td> Ahipara</td>
+<td> </td>
+<td align="center">31.63</td>
+<td> Marrakesh</td>
+</tr>
+<tr>
+<td align="center">-35.36</td>
+<td> Ulladulla</td>
+<td> </td>
+<td align="center">32.34</td>
+<td> Huoqiu</td>
+</tr>
+<tr>
+<td align="center">-35.55</td>
+<td> Victor Harbor</td>
+<td> </td>
+<td align="center">32.56</td>
+<td> Chamba</td>
+</tr>
+<tr>
+<td align="center">-35.71</td>
+<td> Batemans Bay</td>
+<td> </td>
+<td align="center">32.63</td>
+<td> Canico</td>
+</tr>
+<tr>
+<td align="center">-36.31</td>
+<td> Dolores</td>
+<td> </td>
+<td align="center">32.66</td>
+<td> Fortuna Foothills</td>
+</tr>
+<tr>
+<td align="center">-36.62</td>
+<td> Santa Rosa</td>
+<td> </td>
+<td align="center">32.74</td>
+<td> Lamesa</td>
+</tr>
+<tr>
+<td align="center">-37.83</td>
+<td> Mount Gambier</td>
+<td> </td>
+<td align="center">32.77</td>
+<td> Darnah</td>
+</tr>
+<tr>
+<td align="center">-38.31</td>
+<td> Barrow</td>
+<td> </td>
+<td align="center">32.86</td>
+<td> Birjand</td>
+</tr>
+<tr>
+<td align="center">-38.38</td>
+<td> Tres Arroyos</td>
+<td> </td>
+<td align="center">33.08</td>
+<td> Camacha</td>
+</tr>
+<tr>
+<td align="center">-38.95</td>
+<td> Neuquen</td>
+<td> </td>
+<td align="center">33.16</td>
+<td> Mount Pleasant</td>
+</tr>
+<tr>
+<td align="center">-41.13</td>
+<td> San Carlos De Bariloche</td>
+<td> </td>
+<td align="center">33.19</td>
+<td> Avera</td>
+</tr>
+<tr>
+<td align="center">-41.87</td>
+<td> Ancud</td>
+<td> </td>
+<td align="center">33.72</td>
+<td> Shingu</td>
+</tr>
+<tr>
+<td align="center">-42.48</td>
+<td> Castro</td>
+<td> </td>
+<td align="center">33.91</td>
+<td> Norwalk</td>
+</tr>
+<tr>
+<td align="center">-42.78</td>
+<td> New Norfolk</td>
+<td> </td>
+<td align="center">33.93</td>
+<td> Katsuura</td>
+</tr>
+<tr>
+<td align="center">-42.88</td>
+<td> Hobart</td>
+<td> </td>
+<td align="center">34.06</td>
+<td> Yuxia</td>
+</tr>
+<tr>
+<td align="center">-43.03</td>
+<td> Margate</td>
+<td> </td>
+<td align="center">34.11</td>
+<td> Olga</td>
+</tr>
+<tr>
+<td align="center">-43.3</td>
+<td> Rawson</td>
+<td> </td>
+<td align="center">34.46</td>
+<td> Dengfeng</td>
+</tr>
+<tr>
+<td align="center">-43.53</td>
+<td> Christchurch</td>
+<td> </td>
+<td align="center">34.64</td>
+<td> Lompoc</td>
+</tr>
+<tr>
+<td align="center">-44.49</td>
+<td> Pareora</td>
+<td> </td>
+<td align="center">34.7</td>
+<td> Shimoda</td>
+</tr>
+<tr>
+<td align="center">-44.7</td>
+<td> Wanaka</td>
+<td> </td>
+<td align="center">34.78</td>
+<td> Nata</td>
+</tr>
+<tr>
+<td align="center">-45.41</td>
+<td> Te Anau</td>
+<td> </td>
+<td align="center">34.88</td>
+<td> Havelock</td>
+</tr>
+<tr>
+<td align="center">-45.58</td>
+<td> Coihaique</td>
+<td> </td>
+<td align="center">34.92</td>
+<td> Lasa</td>
+</tr>
+<tr>
+<td align="center">-45.87</td>
+<td> Dunedin</td>
+<td> </td>
+<td align="center">35.01</td>
+<td> Salamiyah</td>
+</tr>
+<tr>
+<td align="center">-45.87</td>
+<td> Comodoro Rivadavia</td>
+<td> </td>
+<td align="center">35.01</td>
+<td> Birin</td>
+</tr>
+<tr>
+<td align="center">-46.13</td>
+<td> Tuatapere</td>
+<td> </td>
+<td align="center">35.24</td>
+<td> Torbat-E Jam</td>
+</tr>
+<tr>
+<td align="center">-46.19</td>
+<td> Mataura</td>
+<td> </td>
+<td align="center">35.24</td>
+<td> Kijang</td>
+</tr>
+<tr>
+<td align="center">-46.28</td>
+<td> Kaitangata</td>
+<td> </td>
+<td align="center">35.3</td>
+<td> Abu Samrah</td>
+</tr>
+<tr>
+<td align="center">-46.43</td>
+<td> Mar Del Plata</td>
+<td> </td>
+<td align="center">35.73</td>
+<td> Hasaki</td>
+</tr>
+<tr>
+<td align="center">-51.62</td>
+<td> Rio Gallegos</td>
+<td> </td>
+<td align="center">35.78</td>
+<td> Yishui</td>
+</tr>
+<tr>
+<td align="center">-53.16</td>
+<td> Punta Arenas</td>
+<td> </td>
+<td align="center">35.84</td>
+<td> Marsaxlokk</td>
+</tr>
+<tr>
+<td align="center">-54.81</td>
+<td> Ushuaia</td>
+<td> </td>
+<td align="center">36.07</td>
+<td> Takestan</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">36.62</td>
+<td> Pacific Grove</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">36.62</td>
+<td> Fethiye</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">36.62</td>
+<td> Orange Cove</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">36.66</td>
+<td> Tateyama</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">36.66</td>
+<td> Chalus</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">36.85</td>
+<td> Virginia Beach</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">36.85</td>
+<td> Norfolk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">37.14</td>
+<td> Lagoa</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">37.16</td>
+<td> Rongcheng</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">37.17</td>
+<td> Sitka</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">37.29</td>
+<td> Illora</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">37.45</td>
+<td> Dezhou</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">37.46</td>
+<td> Half Moon Bay</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">37.47</td>
+<td> Alamosa</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">37.63</td>
+<td> Cartagena</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">37.72</td>
+<td> Vila Franca Do Campo</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">37.73</td>
+<td> Ponta Delgada</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">38.18</td>
+<td> Morehead</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">38.18</td>
+<td> Fortuna</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">38.37</td>
+<td> South Charleston</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">38.42</td>
+<td> Shache</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">38.52</td>
+<td> Ribeira Grande</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">38.78</td>
+<td> Sayat</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">38.88</td>
+<td> Hays</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">39.09</td>
+<td> Independence</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">39.21</td>
+<td> Almeirim</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">39.24</td>
+<td> Gazanjyk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">39.31</td>
+<td> Port Elizabeth</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">39.45</td>
+<td> Saint George</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">39.49</td>
+<td> Requena</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">39.57</td>
+<td> Calvia</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">39.62</td>
+<td> Vardo</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">39.7</td>
+<td> Zhuanghe</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">39.71</td>
+<td> Hannibal</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">39.95</td>
+<td> Kodiak</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">40.16</td>
+<td> Powell</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">40.25</td>
+<td> Fort Morgan</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">40.27</td>
+<td> Beatrice</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">40.67</td>
+<td> Ayan</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41</td>
+<td> Polignano A Mare</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41.13</td>
+<td> Sao Pedro</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41.26</td>
+<td> Huanren</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41.28</td>
+<td> Poum</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41.38</td>
+<td> Kastamonu</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41.42</td>
+<td> Saldanha</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41.53</td>
+<td> Barcelos</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41.76</td>
+<td> Brewster</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41.83</td>
+<td> Niles</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41.89</td>
+<td> Roma</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41.96</td>
+<td> Khani</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">41.96</td>
+<td> Pascoag</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">42.22</td>
+<td> Weymouth</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">42.33</td>
+<td> Shizunai</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">42.65</td>
+<td> Albany</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">42.97</td>
+<td> Foix</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">43.26</td>
+<td> Hamilton</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">43.27</td>
+<td> Bereda</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">43.74</td>
+<td> Goderich</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">43.91</td>
+<td> Zhanakorgan</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">43.97</td>
+<td> Saint Anthony</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">44.29</td>
+<td> Gillette</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">44.45</td>
+<td> Cahors</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">44.65</td>
+<td> Halifax</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">44.75</td>
+<td> Kamen-Rybolov</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">44.9</td>
+<td> Asti</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">45.17</td>
+<td> Novaci</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">45.18</td>
+<td> Vila</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">45.25</td>
+<td> Ushtobe</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">45.36</td>
+<td> Saint-Philippe</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">45.43</td>
+<td> Kropotkin</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">45.52</td>
+<td> Portland</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">45.6</td>
+<td> Souillac</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">45.76</td>
+<td> Mandalgovi</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">45.79</td>
+<td> Billings</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">45.97</td>
+<td> Bolshaya Dzhalga</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">46.09</td>
+<td> Hauterive</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">46.12</td>
+<td> Saint-Georges</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">46.45</td>
+<td> Vostok</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">46.54</td>
+<td> Svetlaya</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">46.68</td>
+<td> Baruun-Urt</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">46.71</td>
+<td> Aniva</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">46.87</td>
+<td> Missoula</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">47.01</td>
+<td> Csabrendek</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">47.17</td>
+<td> Marystown</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">47.19</td>
+<td> Superior</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">47.55</td>
+<td> Ambon</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">47.59</td>
+<td> Saint-Louis</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">47.66</td>
+<td> Torbay</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">48.32</td>
+<td> Nogent-Le-Rotrou</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">48.46</td>
+<td> Petropavlivka</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">48.59</td>
+<td> Shubarshi</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">48.64</td>
+<td> Saint-Dizier</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">48.64</td>
+<td> Wanning</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">48.65</td>
+<td> Bonavista</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">48.91</td>
+<td> Kapitanivka</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">48.94</td>
+<td> Ucluelet</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">49.24</td>
+<td> Litovko</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">49.42</td>
+<td> Kapuskasing</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">49.46</td>
+<td> Balakliya</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">49.72</td>
+<td> Geraldton</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">49.91</td>
+<td> Krasne</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">49.93</td>
+<td> Dauriya</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">50.03</td>
+<td> Port-Cartier</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">50.05</td>
+<td> Chudniv</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">50.1</td>
+<td> Sioux Lookout</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">50.17</td>
+<td> Dabrowa Tarnowska</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">50.28</td>
+<td> Aqtobe</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">50.48</td>
+<td> Trebukhiv</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">50.56</td>
+<td> Husavik</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">50.67</td>
+<td> Warmbad</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">50.68</td>
+<td> Severo-Kurilsk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">50.7</td>
+<td> Port Hardy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">50.72</td>
+<td> Solnechnyy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">51.62</td>
+<td> Dongen</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">51.81</td>
+<td> Atbasar</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">52.02</td>
+<td> Innisfail</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">52.5</td>
+<td> Aleysk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">52.54</td>
+<td> Gniezno</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">52.8</td>
+<td> Lyuban</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">53.07</td>
+<td> Ekimchan</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">53.14</td>
+<td> Greystones</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">53.22</td>
+<td> Shellbrook</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">53.3</td>
+<td> Agapovka</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">53.59</td>
+<td> Okha</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">53.6</td>
+<td> Belyy Yar</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">53.74</td>
+<td> Zeya</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">53.8</td>
+<td> Westport</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">53.96</td>
+<td> Krutikha</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">54.15</td>
+<td> Smolenka</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">54.23</td>
+<td> Burns Lake</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">54.33</td>
+<td> Kochki</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">54.43</td>
+<td> Sobolevo</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">54.72</td>
+<td> Athabasca</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">54.72</td>
+<td> Chumikan</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">54.77</td>
+<td> Flin Flon</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">54.78</td>
+<td> Smithers</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">54.89</td>
+<td> Imeni Stepana Razina</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">55.1</td>
+<td> La Ronge</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">55.34</td>
+<td> Ketchikan</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">55.74</td>
+<td> Thompson</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">55.86</td>
+<td> Glasgow</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">56.07</td>
+<td> Kincardine</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">56.15</td>
+<td> Bratsk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">56.33</td>
+<td> Idritsa</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">56.62</td>
+<td> Harboore</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">56.73</td>
+<td> Oktyabrskoye</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">57.07</td>
+<td> Vester Hassing</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">57.13</td>
+<td> Znamenskoye</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">57.18</td>
+<td> Sharanga</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">57.3</td>
+<td> Yaransk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">58.61</td>
+<td> Aldan</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">58.81</td>
+<td> Vokhtoga</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">58.89</td>
+<td> Sola</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">59.36</td>
+<td> Okhotsk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">59.7</td>
+<td> Nikolskoye</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">59.7</td>
+<td> Arman</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">59.72</td>
+<td> Lugovoy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">60.14</td>
+<td> Nanortalik</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">60.37</td>
+<td> Severo-Yeniseyskiy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">60.47</td>
+<td> Tilichiki</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">60.71</td>
+<td> Lensk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">60.72</td>
+<td> Qaqortoq</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">60.79</td>
+<td> Bethel</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">60.82</td>
+<td> Hay River</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">60.87</td>
+<td> Polunochnoye</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">60.91</td>
+<td> Narsaq</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">61.13</td>
+<td> Ust-Omchug</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">61.6</td>
+<td> Palmer</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">61.68</td>
+<td> Baykit</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">61.92</td>
+<td> Evensk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">62.16</td>
+<td> Suntar</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">62.23</td>
+<td> Klaksvik</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">62.45</td>
+<td> Yellowknife</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">62.53</td>
+<td> Omsukchan</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">62.58</td>
+<td> Roald</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">62.72</td>
+<td> Kholodnyy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">63.01</td>
+<td> Chernyshevskiy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">63.05</td>
+<td> Beringovskiy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">63.2</td>
+<td> Ler</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">63.59</td>
+<td> Mayo</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">63.75</td>
+<td> Iqaluit</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">63.84</td>
+<td> Grindavik</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">63.84</td>
+<td> Kokkola</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">63.9</td>
+<td> Kysyl-Syr</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">63.93</td>
+<td> Muyezerskiy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">64.15</td>
+<td> Reykjavik</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">64.25</td>
+<td> Hofn</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">64.42</td>
+<td> Provideniya</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">64.56</td>
+<td> Severodvinsk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">64.57</td>
+<td> Ust-Nera</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">64.84</td>
+<td> Fairbanks</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">64.86</td>
+<td> College</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">65.09</td>
+<td> Terrak</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">65.17</td>
+<td> Haukipudas</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">65.28</td>
+<td> Norman Wells</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">65.58</td>
+<td> Lavrentiya</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">65.61</td>
+<td> Tasiilaq</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">65.8</td>
+<td> Turukhansk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">65.85</td>
+<td> Mezen</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">66.15</td>
+<td> Pangnirtung</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">66.32</td>
+<td> Egvekinot</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">66.42</td>
+<td> Udachnyy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">66.66</td>
+<td> Labytnangi</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">66.77</td>
+<td> Zhigansk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">66.83</td>
+<td> Yar-Sale</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">67.46</td>
+<td> Srednekolymsk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">67.55</td>
+<td> Komsomolskiy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">67.65</td>
+<td> Batagay</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">67.8</td>
+<td> Batagay-Alyta</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">68.22</td>
+<td> Aklavik</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">68.36</td>
+<td> Inuvik</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">68.54</td>
+<td> Belaya Gora</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">68.71</td>
+<td> Aasiaat</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">68.75</td>
+<td> Cherskiy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">68.82</td>
+<td> Qasigiannguit</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">69.22</td>
+<td> Ilulissat</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">69.3</td>
+<td> Deputatskiy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">69.38</td>
+<td> Leningradskiy</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">69.44</td>
+<td> Tuktoyaktuk</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">69.49</td>
+<td> Talnakh</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">69.65</td>
+<td> Tromso</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">69.7</td>
+<td> Pevek</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">70.47</td>
+<td> Clyde River</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">70.62</td>
+<td> Chokurdakh</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">70.63</td>
+<td> Batsfjord</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">70.66</td>
+<td> Hammerfest</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">70.86</td>
+<td> Berlevag</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">71</td>
+<td> Havoysund</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">71.64</td>
+<td> Tiksi</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">71.97</td>
+<td> Saskylakh</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">71.98</td>
+<td> Khatanga</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">72.79</td>
+<td> Upernavik</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">73.51</td>
+<td> Dikson</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">77.48</td>
+<td> Qaanaaq</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td> </td>
+<td> </td>
+<td align="center">78.22</td>
+<td> Longyearbyen</td>
+</tr>
+</tbody></table>
+</div>
+</body>

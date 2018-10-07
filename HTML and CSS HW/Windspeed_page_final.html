@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>🌐 Latitude</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <style>
+        .wrapper {
+            column-count: 1;
+            column-gap: 10px;
+            padding: 10px;
+        }
+
+        p {
+            line-height: 1.6; 
+            font-family: Helvetica;
+            margin: 0;
+            font-size: 14px;
+        }
+        .main_img {
+            width: 425px;
+            height: 425px;
+        }
+        .mini-box {
+            background-color: #10BCFF;
+            color: white;
+            text-align: center;
+        }
+
+        body {
+            padding-top: 50px;
+        }
+        .thumbnail{        
+            max-width : 100%;
+            max-height: 100%;
+            overflow: auto;
+            display: table-cell;
+            vertical-align: middle;
+}
+        .thumbnail img{
+            width: auto;
+            height: auto;
+            display: block;
+}
+        .blue {
+            background-color: #10BCFF;
+}
+        </style>
+</head>
+
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#">🌐 Latitude</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="\Temperature_page_final">vs Max Temperature</a></li>
+                <li><a href="\Humidity_page_final">vs Humidity</a></li>
+                <li><a href="\Cloudiness_page_final">vs Cloudiness</a></li>
+            </ul>
+            </li>
+               
+            <li><a href="\index">Main</a></li>
+            <li><a href="\Comparison">Comparison</a></li>  
+            <li><a href="\Data">Data</a></li>
+     </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+<body>
+<div class="container"><div>
+                <div class="row">
+                    <div class="col-md-7">
+                            <div class="panel panel-default">
+                                    <h4 class="card-title" style=text-align:center>Windiness</h4>
+                                    <img class=img-responsive:center-block width="100%" height="100%"src="\vsWindspeed.png" alt="">
+                                    <br>                    
+                                    <p>Windspeed is not correlated with latitude.</p> 
+                                </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4">
+                            <div class="panel panel-default" style=text-align:center>
+                                    <h4 class="card-title">Visualizations</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                            <div class="thumbnail">
+                                                    <div href="\vsTemp.png">
+                                                    <img src="\vsTemp.png" alt="Temperature" style=width:100%>
+                                                    <div class="caption">
+                                                            <p style="text-align:center">Temperature</p>
+                                                    </div>
+                                                    </div>
+                                            </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                            <div class="thumbnail blue">
+                                                    <a href="\vsWindspeed.png">
+                                                    <img src="\vsWindspeed.png" alt="Windspeed" style=width:100%>
+                                                    <div class="caption">
+                                                            <p style="text-align:center">Wind</p>
+                                                    </div>
+                                                    </a>
+                                            </div>
+                                </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                            <div class="thumbnail">
+                                                    <a href="\vsHumidity.png">
+                                                    <img src="\vsHumidity.png" alt="Humidity" style=width:100%>
+                                                    <div class="caption">
+                                                            <p style="text-align:center">Humidity</p>
+                                                    </div>
+                                                    </a>
+                                            </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                            <div class="thumbnail">
+                                                    <a href="\vsCloudiness.png">
+                                                    <img src="\vsCloudiness.png" alt="Cloudiness" style=width:100%>
+                                                    <div class="caption">
+                                                            <p style="text-align:center">Cloudiness</p>
+                                                    </div>
+                                                    </a>
+                                            </div>
+                                    </div>
+                            </div>      
+                    </div>                                 
+            </div>        
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        </body>
+
+
+        
+
